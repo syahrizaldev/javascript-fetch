@@ -1,0 +1,32 @@
+[
+   {
+      "id": 1,
+      "name": "Alex Johnson",
+      "email": "alexjohnson@mail.com",
+      "address": "Boston"
+   },
+   {
+      "id": 2,
+      "name": "Robert Smith",
+      "email": "robertsmith@mail.com",
+      "address": "New York"
+   },
+   {
+      "id": 3,
+      "name": "Anna Maria",
+      "email": "annamaria@mail.com",
+      "address": "London"
+   },
+   {
+      "id": 4,
+      "name": "Stefanie Alexandra",
+      "email": "stefalexandra@mail.com",
+      "address": "Manchester"
+   },
+   {
+      "id": 5,
+      "name": "Adam Stevenson",
+      "email": "adamstevenson@mail.com",
+      "address": "Berlin"
+   }
+]

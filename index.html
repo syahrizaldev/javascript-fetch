@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Syahrizaldev">
+      <title>Fetch API Crash Course</title>
+      <link rel="stylesheet" type="text/css" href="./css/reset.min.css">
+      <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+      <link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
+   </head>
+
+   <body>
+      <main class="main">
+         <div class="container">
+            <section class="wrapper">
+               <button type="button" class="btn btn-primary" id="getTexts">Get Texts</button>
+               <div class="card" id="showTexts"></div>
+            </section>
+
+            <section class="wrapper">
+               <button type="button" class="btn btn-success" id="getUsers">Get Users</button>
+               <div class="card" id="showUsers"></div>
+            </section>
+
+            <section class="wrapper">
+               <button type="button" class="btn btn-secondary" id="getPosts">Get Posts</button>
+               <div class="card" id="showPosts"></div>
+            </section>
+
+            <section class="wrapper">
+               <button type="button" class="btn btn-warning" id="getComments">Get Comments</button>
+               <div class="card" id="showComments"></div>
+            </section>
+
+            <section class="wrapper">
+               <form name="posts" class="form card" id="addPosts">
+                  <div class="input-control">
+                     <label for="title" class="input-label">Title</label>
+                     <input type="text" name="title" id="title" class="input-field" placeholder="Add Your Post Title">
+                  </div>
+                  <div class="input-control">
+                     <label for="body" class="input-label">Body</label>
+                     <input type="text" name="body" id="body" class="input-field" placeholder="Add Your Post Body">
+                  </div>
+                  <div class="input-control">
+                     <input type="submit" class="btn btn-danger" value="Submit Post">
+                  </div>
+               </form>
+            </section>
+
+            <section class="wrapper">
+               <button type="button" class="btn btn-primary" id="getPhotos">Get Photos</button>
+               <div class="card" id="showPhotos"></div>
+            </section>
+         </div>
+      </main>
+
+
+      <script src="./js/script.js" defer></script>
+   </body>
+
+</html>
