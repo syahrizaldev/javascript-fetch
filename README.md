@@ -1,3 +1,3 @@
 # JavaScript Fetch
 
-### "JavaScript Fetch Crash Course using JSON Placeholder API."
+**JavaScript Fetch Crash Course using JSON Placeholder API.**
